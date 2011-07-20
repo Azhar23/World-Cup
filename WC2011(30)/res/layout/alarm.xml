@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+   android:orientation="vertical">
+<include android:id="@+id/include01" android:layout_height="wrap_content" layout="@layout/banner" android:layout_width="fill_parent"></include>
+<TableLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:orientation="vertical">
+  	  
+   		  <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" >
+   			<ListView android:id="@+id/ListView02" 
+         		   android:layout_height="wrap_content"
+				   android:scrollbars="vertical" android:layout_width="fill_parent">
+                   </ListView>
+   		</TableRow>
+   			
+   		<TableRow android:layout_width="fill_parent" android:gravity="center_horizontal" >
+   		<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="fill_parent"
+  			android:orientation="vertical">
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingBottom = "1dip">
+   			<Button
+  	   		 android:layout_width="70pt"
+   			 android:layout_height="wrap_content"
+  			 android:id="@+id/btnEnter4"
+    		 android:text="ENTER"  		 
+    		 android:textStyle="bold"
+    		 android:textColor="#FF0000" 
+  		 />
+  		 <Button
+  	   		 android:layout_width="70pt"
+   			 android:layout_height="wrap_content"
+  			 android:id="@+id/btnExit4"
+    		 android:text="EXIT"
+      		 android:textStyle="bold"
+    		 android:textColor="#FF0000"
+   		 />
+  		</TableRow>
+   		</TableLayout>	 
+   		 </TableRow>
+  		
+</TableLayout>
+</LinearLayout>

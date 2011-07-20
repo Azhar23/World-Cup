@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+   android:orientation="vertical">
+ <TableLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:orientation="horizontal"> 
+  	<TableRow android:layout_width="wrap_content" android:gravity="center_horizontal" >
+  			<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="fill_parent"
+  			android:orientation="vertical">
+  			<TableRow android:layout_width="wrap_content" android:orientation="vertical" > 
+  			<TextView  
+    			android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content" 
+    			android:text="19-02-2011"
+    			android:textStyle="bold"
+  			/>
+   			
+  			</TableRow>
+  			<TableRow android:layout_width="wrap_content" android:orientation="vertical"  >
+  				<TextView  
+    			android:layout_width="wrap_content" 
+    			android:layout_height="wrap_content" 
+    			android:text="2:30PM"
+    			android:textStyle="bold"
+  				/>
+  			</TableRow>
+    		</TableLayout>
+    		<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="fill_parent"
+  			android:orientation="vertical">
+  			<TableRow android:layout_width="wrap_content" android:orientation="vertical"  >
+  			<TextView  
+    			android:layout_width="wrap_content" 
+    			android:layout_height="fill_parent" 
+    			android:text="INDIA Vs Bangladesh"
+    			android:textStyle="bold"
+  			/>
+  			</TableRow>
+  			</TableLayout>
+  			<TableLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent"
+  			android:layout_height="fill_parent"
+  			android:orientation="vertical">
+  			<TableRow android:layout_width="wrap_content" android:orientation="vertical"  >
+  			<TextView  
+    			android:layout_width="wrap_content" 
+    			android:layout_height="fill_parent" 
+    			android:text="DHAKA"
+    			android:textStyle="bold"
+  			/>
+  			</TableRow>
+  			</TableLayout>
+  	</TableRow>	
+  
+  </TableLayout>
+</LinearLayout>

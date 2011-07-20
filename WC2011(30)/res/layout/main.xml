@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+<include android:id="@+id/include01" android:layout_height="wrap_content" layout="@layout/banner" android:layout_width="fill_parent"></include>
+<TableLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:orientation="vertical">
+	<TableRow android:layout_width="wrap_content"
+  			android:gravity="center_horizontal">  		
+		<TableLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:orientation="vertical">
+  		<TableRow android:layout_width="wrap_content"
+  			android:gravity="center_horizontal">
+  			<ImageView android:id="@+id/image1"
+    	   android:scaleType ="fitCenter"
+    	   android:src="@drawable/worldcupcricket"
+		   />  
+  		</TableRow>
+ 
+  		<TableRow android:layout_width="wrap_content"
+  			android:gravity="center_horizontal">
+  			<DigitalClock android:textSize="40sp" android:layout_width="250dp" android:textColor="#fffafad2" android:gravity="center" android:id="@+id/tvTime" android:layout_height="wrap_content" android:layout_y="150dip" android:layout_x="90dip"></DigitalClock>
+  			</TableRow>
+ 		</TableLayout>
+ 	</TableRow>
+ 	<TableRow android:layout_width="wrap_content"
+  			android:gravity="center_horizontal"> 		
+  			<TableLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:orientation="vertical">
+  			<TableRow android:layout_width="wrap_content"
+  			android:gravity="center_horizontal">
+  		  <Button
+  	   		 android:layout_width="70pt"
+   			 android:layout_height="wrap_content"
+  			 android:id="@+id/btnEnter"
+    		 android:text="ENTER"  		 
+    		 android:textStyle="bold"
+    		 android:textColor="#FF0000" 
+  		 />
+  		 <Button
+  	   		 android:layout_width="70pt"
+   			 android:layout_height="wrap_content"
+  			 android:id="@+id/btnExit"
+    		 android:text="EXIT"
+      		 android:textStyle="bold"
+    		 android:textColor="#FF0000"
+   		 />
+   		   	</TableRow>
+		</TableLayout>
+	</TableRow>
+	</TableLayout>
+</LinearLayout>
