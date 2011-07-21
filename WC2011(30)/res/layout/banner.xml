@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="fill_parent" android:layout_height="wrap_content">
-	<TextView android:text="ICC CRICKET WORLD CUP 2011" android:id="@+id/TextView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="12pt" android:textStyle="bold"
-			  android:textColor ="#FF0000"  android:gravity = "center"></TextView>
-</LinearLayout>
